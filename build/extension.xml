@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+    <id>net.nodera.ane.UIActivityANE</id>
+    <versionNumber>1.0.0</versionNumber>
+    <platforms>
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libUIActivityANE.a</nativeLibrary>
+                <initializer>UIActivityANEExtInitializer</initializer>
+                <finalizer>UIActivityANEExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        <platform name="iPhone-x86">
+            <applicationDeployment>
+                <nativeLibrary>libUIActivityANE.a</nativeLibrary>
+                <initializer>UIActivityANEExtInitializer</initializer>
+                <finalizer>UIActivityANEExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+         <platform name="default">
+            <applicationDeployment/>
+        </platform>
+    </platforms>
+</extension>
