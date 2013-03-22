@@ -12,6 +12,6 @@ This Native Extension require iOS6+ and Adobe AIR 3.5+!!
 	bmd.draw(bitmap);
 
 	var activity:UIActivityANE = new UIActivityANE();
-	if(activity.isSupported()) {		activity.send("message", "http://example.com/", bmd);	}
+	if(activity.isSupported) {		activity.send("message", "http://example.com/", bmd);	}
 
 
